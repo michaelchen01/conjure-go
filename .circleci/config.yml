@@ -44,7 +44,7 @@ jobs:
   verify:
     <<: *working_dir
     docker:
-      - image: nmiyake/go:alpine-go-1.11-java-8u171-t134
+      - image: nmiyake/go:alpine-go-1.11.4-java-8u181-t144
         environment:
           CGO_ENABLED: 0
     steps:
